@@ -137,3 +137,5 @@ footer .legal{border-top:1px solid #2b3a33;margin-top:44px;padding-top:24px;font
   .brand span{display:none}
 }
 .band>svg:not([width]){width:56px;height:56px;color:var(--clay)}
+nav a{white-space:nowrap}
+@media (max-width:1180px) and (min-width:721px){.brand span{display:none}nav a{padding:10px 10px;font-size:.9rem}}
