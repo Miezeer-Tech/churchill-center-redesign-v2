@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact & Hours | The Churchill Center</title><meta name="description" content="Book a free online consultation or visit our Arcadia office.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<header><div class="wrap nav">
+<a class="brand" href="index.html"><img src="img/DrDana_the_Churchill_center-logo-1-1.png" alt=""><span>The Churchill Center</span></a>
+<nav aria-label="Main"><button class="menu" aria-expanded="false" aria-controls="m">Menu</button>
+<ul id="m"><li><a href="index.html">Home</a></li><li><a href="doctors.html">Our Doctors</a></li><li><a href="treatments.html">Treatments</a></li><li><a href="contact.html" aria-current="page">Contact</a></li><li><a class="btn" href="contact.html#book">Book a consult</a></li></ul></nav></div></header>
+<main>
+<section class="pagehead"><div class="wrap"><span class="eyebrow">Contact</span><h1>Let's talk about your <em>health</em>.</h1>
+<p>Visit our Arcadia office, or begin with a free online consultation by Zoom.</p></div></section>
+<section style="padding-top:40px"><div class="wrap split" style="align-items:start">
+<div class="info reveal" id="book">
+<div><h3>Book a free online consult</h3><p>Free 15-minute consultations are online only, by Zoom. You'll receive an email with the meeting link — please join 5–10 minutes early.</p><p style="margin-top:14px"><a class="btn" href="https://thechurchillcenter.com/appointments/" style="color:var(--cream)">Request appointment</a></p></div>
+<div><h3>Arcadia office</h3><p>289 W. Huntington Blvd, Suite 307<br>Arcadia, CA 91007</p></div>
+<div><h3>Phone</h3><p><a href="tel:6268429123">(626) 842-9123</a> · Fax (626) 842-9124<br>Chinese hotline 中文熱線 <a href="tel:3104299307">(310) 429-9307</a><br><a href="https://wa.me/13103516474">WhatsApp (310) 351-6474</a></p></div>
+<div><h3>Chat with Dr. Dana</h3><p>Thursdays 6–7 PM and Saturdays 10–11 AM PST.</p></div></div>
+<div class="reveal"><table class="hours"><caption style="text-align:left;font-family:var(--serif);font-size:1.6rem;padding-bottom:14px">Office hours (PST)</caption>
+<tr><th>Monday</th><td>9am – 5pm</td></tr><tr><th>Tuesday</th><td>9am – 5pm</td></tr>
+<tr><th>Wednesday</th><td>9am – 7pm · IV therapy 9–4, blood draws 9–12</td></tr>
+<tr><th>Thursday</th><td>9am – 5pm</td></tr><tr><th>Friday</th><td>Please call to confirm</td></tr>
+<tr><th>Saturday</th><td>9am – 1pm · by appointment</td></tr></table></div></div></section></main>
+<footer><div class="wrap"><div class="cols">
+<div><h4>The Churchill Center</h4><p>Integrative &amp; functional medicine in Arcadia, California. Established 2005.</p></div>
+<div><h4>Explore</h4><a href="index.html">Home</a><a href="doctors.html">Our Doctors</a><a href="treatments.html">Treatments</a><a href="contact.html">Contact</a></div>
+<div><h4>Visit</h4><p>289 W. Huntington Blvd, Ste 307<br>Arcadia, CA 91007</p><a href="tel:6268429123">(626) 842-9123</a></div>
+<div><h4>Follow</h4><a href="https://www.facebook.com/pg/The-Churchill-Center-Functional-Medicine-109382003913838/">Facebook</a><a href="https://instagram.com/thechurchillcenter">Instagram</a><a href="https://www.youtube.com/channel/UCDyZLpvVo5U7Jgb7illzdbA">YouTube</a><a href="https://www.yelp.com/biz/the-churchill-center-arcadia-2">Yelp</a><a href="https://thechurchillcenter.store/">Shop supplements</a></div>
+</div><p class="legal">© 2026 The Churchill Center. Design preview for client review.</p></div></footer>
+<script>
+const m=document.querySelector('.menu'),u=document.getElementById('m');
+m.onclick=()=>m.setAttribute('aria-expanded',u.classList.toggle('open'));
+const io=new IntersectionObserver(e=>e.forEach(x=>x.isIntersecting&&(x.target.classList.add('in'),io.unobserve(x.target))),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script></body></html>

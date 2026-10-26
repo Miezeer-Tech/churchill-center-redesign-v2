@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Our Doctors | The Churchill Center</title><meta name="description" content="Meet Dr. Dana Churchill, NMD and Dr. Julietta Thong, DAIM.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<header><div class="wrap nav">
+<a class="brand" href="index.html"><img src="img/DrDana_the_Churchill_center-logo-1-1.png" alt=""><span>The Churchill Center</span></a>
+<nav aria-label="Main"><button class="menu" aria-expanded="false" aria-controls="m">Menu</button>
+<ul id="m"><li><a href="index.html">Home</a></li><li><a href="doctors.html" aria-current="page">Our Doctors</a></li><li><a href="treatments.html">Treatments</a></li><li><a href="contact.html">Contact</a></li><li><a class="btn" href="contact.html#book">Book a consult</a></li></ul></nav></div></header>
+<main>
+<section class="pagehead"><div class="wrap"><span class="eyebrow">Our doctors</span><h1>Advanced technology, <em>ancient</em> wisdom.</h1>
+<p>Our practitioners combine the most advanced technology with time-tested tradition to deliver a fully integrated model of care for patients in Arcadia, Pasadena and Monrovia.</p></div></section>
+<section style="padding-top:40px"><div class="wrap docs">
+<article class="doc reveal"><img src="img/Dr-Dana-Chruchill.jpg" alt="Dr. Dana Churchill"><div><h2 style="font-size:2rem">Dr. Dana Churchill</h2><p class="role">NMD · Medical Director</p>
+<p>Bachelor of Science in Nutritional Biochemistry from Rutgers University and Doctor of Naturopathic Medicine from the National University of Natural Medicine. Trained at the Princeton Bio Center with Carl Pfeiffer, MD, PhD, and has attended A4M congresses for over 15 years.</p>
+<p style="margin-top:12px">Focus areas: thyroid, gut, mold toxicity, heart health, adrenal fatigue, hormones, chronic fatigue, allergies and weight loss — using IV therapies, BHRT, peptides, regenerative medicine and botanical medicine.</p></div></article>
+<article class="doc reveal"><img src="img/dr-julietta-thong-daim.jpg" alt="Dr. Julietta Thong"><div><h2 style="font-size:2rem">Dr. Julietta Thong</h2><p class="role">DAIM · AcuRoma™ Practitioner</p>
+<p>Certified Lymphatic &amp; Integrative Wellness Therapy Specialist, with a Doctor of Acupuncture and Integrative Medicine, an MS in Traditional Asian Medicine, and a doctorate in Biomedical Nutrition and Psychoneurology.</p>
+<p style="margin-top:12px">Offers wellness maintenance bodywork, pre-operative lymphatic preparation and post-operative lymphatic recovery in 60 or 90 minute sessions.</p></div></article></div></section>
+<section style="padding-top:0"><div class="wrap"><div class="band reveal"><h2>Ready to meet the team?</h2><p>Start with a free online consultation.</p><div class="cta"><a class="btn" href="contact.html#book">Book a consult</a></div></div></div></section></main>
+<footer><div class="wrap"><div class="cols">
+<div><h4>The Churchill Center</h4><p>Integrative &amp; functional medicine in Arcadia, California. Established 2005.</p></div>
+<div><h4>Explore</h4><a href="index.html">Home</a><a href="doctors.html">Our Doctors</a><a href="treatments.html">Treatments</a><a href="contact.html">Contact</a></div>
+<div><h4>Visit</h4><p>289 W. Huntington Blvd, Ste 307<br>Arcadia, CA 91007</p><a href="tel:6268429123">(626) 842-9123</a></div>
+<div><h4>Follow</h4><a href="https://www.facebook.com/pg/The-Churchill-Center-Functional-Medicine-109382003913838/">Facebook</a><a href="https://instagram.com/thechurchillcenter">Instagram</a><a href="https://www.youtube.com/channel/UCDyZLpvVo5U7Jgb7illzdbA">YouTube</a><a href="https://www.yelp.com/biz/the-churchill-center-arcadia-2">Yelp</a><a href="https://thechurchillcenter.store/">Shop supplements</a></div>
+</div><p class="legal">© 2026 The Churchill Center. Design preview for client review.</p></div></footer>
+<script>
+const m=document.querySelector('.menu'),u=document.getElementById('m');
+m.onclick=()=>m.setAttribute('aria-expanded',u.classList.toggle('open'));
+const io=new IntersectionObserver(e=>e.forEach(x=>x.isIntersecting&&(x.target.classList.add('in'),io.unobserve(x.target))),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script></body></html>
