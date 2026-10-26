@@ -136,3 +136,4 @@ footer .legal{border-top:1px solid #2b3a33;margin-top:44px;padding-top:24px;font
   .list{columns:1}.badge{left:10px}
   .brand span{display:none}
 }
+.band>svg:not([width]){width:56px;height:56px;color:var(--clay)}
